@@ -1,0 +1,89 @@
+<div class="charts-bg-style mb-3">
+
+
+    <div class="col-lg-12 col-sm-6">
+          <div align="right" class="">
+            <div class="input-style input-style-2">
+              <span>
+                <label for="" >From
+                <input type="date" placeholder="" id="fromDate" value="" [(ngModel)]="fromDate">
+                </label>
+              </span>
+            </div>
+            <div class="input-style input-style-3">
+              <span>
+                <label class="">To
+                <input type="date" placeholder=""  id ="toDate" value="" [(ngModel)]="toDate">
+              </label>
+              </span>
+            </div>
+          </div>
+        <hr class="mt-2 mb-0">
+    </div>
+    <div class="col-lg-12 mt-1">
+      <span class="" style="">Time Statistics</span>
+      <span class="trend-disp-1" style="position: relative;left: 48%">Today's Trend</span>
+    </div>
+    <div class="col-lg-12 mb-2">
+        <div class="col-lg-3 chart-style-1 pl-0">
+          
+          <div>
+            <button class="btn btn-info btn-1 mb-1">500</button>
+            <span class="label-font-style"> Before 09 - 10:30 AM</span>
+          </div>
+          <div>
+            <button class="btn btn-info btn-2 mb-1">208</button>
+            <span class="label-font-style"> Before 10 - 10:30 AM</span>
+          </div>
+          <div>
+        <button class="btn btn-info  btn-3 mb-1">177</button>
+            <span class="label-font-style"> After 11 - 11:30 AM</span>
+          </div>
+          <div>
+            <button class="btn btn-info btn-4 mb-1">136</button>
+            <span class="label-font-style"> After 11:30 - 12:00 PM</span>
+          </div>
+          <div>
+            <button class="btn btn-info btn-5 mb-1">252</button>
+            <span class="label-font-style"> After 12:00 PM</span>
+          </div>
+
+        </div>
+    
+     <div  class="col-lg-4 chart-style-1 mb-3">
+      
+        <canvas baseChart
+                height="6px" width="9px"
+                [data]="doughnutChartData"
+                [labels]="doughnutChartLabels"
+                [colors]="chartOneColors"
+                [chartType]="doughnutChartType"
+                [options]="options"
+                [legend]="false"
+                >
+        </canvas>
+        
+        
+      </div>
+    
+     <div class="col-lg-5 chart-style-2">
+      <span class="Trend-display" >Today's Trend</span>
+      <span class="" style="position:absolute;left: 1px;top:25% ;writing-mode:vertical-rl;transform: rotate(180deg);font-size: 8px;font-weight: lighter;" >Employees Present</span>
+      <div class="pt-1">
+        <canvas baseChart
+            [chartType]="chartType"
+            [datasets]="chartDatasets"
+            [labels]="chartLabels"
+            [colors]="chartColors"
+            [options]="chartOptions"
+            [legend]="false"
+            [options]="option"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+        </canvas>
+        <span class="Time-label-style" >Time (Hrs)</span>
+       </div>
+      </div>
+    </div>
+
+</div>

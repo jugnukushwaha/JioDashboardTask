@@ -1,0 +1,126 @@
+.chart-style-1{
+    display: inline-block;
+
+}
+.chart-style-2{
+    display: inline-block; 
+    
+}
+.charts-bg-style{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #AFAFAF;
+    border-radius: 10px;
+    opacity: 1;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: url("/assets/images/downArrow.svg") 0% 0% no-repeat padding-box;
+    z-index: 1;
+    position: relative;
+    top: 8px;
+    
+  }
+  .ng-valid.ng-untouched  {
+    outline-color: white;
+  }
+  .ng-valid.ng-touched  {
+    outline-color: white;
+  }
+  .input-style{
+    position: relative;
+    top: 10px;
+    color: #777777;
+    font-weight: lighter;
+    
+    display: inline-block;
+  }
+  input{
+      border: unset;
+      margin-left: 0.5em;
+      color: #030C7F;
+      font-weight: lighter;   
+      width: 70%;
+  }
+  .label-font-style{
+      font-size: 12px;
+      font-weight: lighter;
+  }
+  .btn-info{
+    width: 63px;
+  }
+  .btn-1{
+    background-color: #9DBFF5;
+    border-color: unset;
+  }
+  .btn-2{
+    background-color: #4386EF;
+    border-color: unset;
+  }
+  .btn-3{
+    background-color: #1659C1;
+    border-color: unset;
+  }
+  .btn-4{
+    background-color: #EDD412;
+    border-color: unset;
+  }
+  .btn-5{
+    background-color: #F75F5F;
+    border-color: unset;
+  }
+.Time-label-style{
+ position: relative;
+ left: 50%;
+  font-size: 8px;
+  font-weight: lighter;
+}
+  @media only screen and (max-width: 991px) {
+      .trend-disp-1{
+          display: none;
+      }
+    
+   
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      color: transparent;
+      background: url("/assets/images/downArrow.svg") 0% 0% no-repeat padding-box;
+      z-index: 1;
+      position: relative;
+      top: 8px;
+      right: 1.2em;
+      
+    }
+    input{
+      border: unset;
+      margin-left: 0.5em;
+      color: #030C7F;
+      font-weight: lighter;  
+      position: relative;
+      right: 0.5em;
+      width: 72%;
+      
+  }
+  .input-style{
+    position: relative;
+    top: 10px;
+    color: #777777;
+    font-weight: lighter;
+    
+    display: inline-block;
+    font-size: .8em;
+  }
+  .input-style-2{
+    position: relative;
+    right: 40%;
+  }
+  .input-style-3{
+    position: absolute;
+    right: 0em;
+  }
+  }
+  @media only screen and (min-width: 992px) {
+      .Trend-display{
+          display: none;
+      }
+
+    
+}

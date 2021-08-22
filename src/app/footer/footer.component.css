@@ -1,0 +1,10 @@
+footer{
+    position:relative;
+    bottom: 0;
+    left:0;
+    right: 0;
+}
+.footer-text-style{
+    font-weight: lighter;
+    color:#333333;
+}

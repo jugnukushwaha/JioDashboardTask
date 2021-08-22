@@ -1,0 +1,42 @@
+@media only screen and (min-width: 992px) {
+    .content-margin{
+    margin-left: 75px !important;
+    margin-right: 75px !important;
+}
+}
+@media only screen and (max-width: 992px) {
+    .content-margin{
+    
+}
+.date-small{
+    display: none;
+}
+}
+.side-nav-margin{
+    padding:0 10px !important;
+}
+.date-style{
+    font-size: 13px;
+    text-align: right;
+    color: #4E4E4E !important;
+    position: relative;
+    top:10px;
+    font-weight: lighter;
+}
+.container{
+    min-width: calc(100% - 150px);
+}
+.header-menu-style{
+    position: relative;
+    bottom: 4px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .app-menu-small{
+        display: none;
+    }
+
+}

@@ -1,0 +1,91 @@
+.dahsboard-menu-style{
+    padding-right: 3em;
+}
+.btn-padding{
+    padding-left: 28px;
+    padding-right: 28px;
+}
+.lable-style{
+    font-size: 12px;
+    font-weight: normal;
+}
+canvas{
+    border: 1px solid red;
+}
+.dashboard-bg-color{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 0.5px solid #AFAFAF;
+border-radius: 10px;
+}
+
+.attendance-btn-style{
+    color: #0363FC;
+    border: 1px solid #0363FC;
+    border-radius: 4px;
+    background-color: unset;
+}
+input[type="search"]::placeholder{
+    color:#AFAFAF;
+    text-align: left;
+}
+input[type="search"]{
+    border: 0.5px solid #AFAFAF;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+.total-btn-style{
+    border-radius: 10px;
+    width: 114px;
+    font-weight: bolder;
+    background-color:#2B388F;
+}
+.dashboard-btn-style{
+    border-radius: 10px;
+    background-color: unset;
+    border-color: #CECBCB;
+    width: 114px;
+    color: #707070;
+    font-weight: bolder;
+}
+.attendance-style{
+    padding:0 0 0.4em 0;
+    text-align:right;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+.small-style-1{
+    width: 50%;
+    padding-top: 1em;
+    padding-right: 0;
+}
+.small-style-2{
+    width: 50%;   
+    padding-right: 0;
+    padding-top: 1em;
+    display: inline-block;
+    text-align: center;
+}
+.small-style2-lable{
+    position: relative;
+    right: 22%;
+}
+.small-style3-lable{
+    position: relative;
+    right: 10%;
+}
+.small-search-style{
+    width: 100%;
+}
+.small-search-style-1{
+    padding-top: 1em;
+    padding-right: 1em !important;
+}
+.attendance-style{
+    padding:0 0 1em 0;
+    text-align:left;
+}
+}
